@@ -202,6 +202,10 @@ StButton:checked.radiobutton
 .workspace-close-button:hover,
 .workspace-close-button:active,
 .workspace-close-button:checked,
+.window-close,
+.window-close:hover,
+.window-close:active,
+.window-close:checked,
 .overview-empty-placeholder,
 .grouped-window-list-thumbnail-menu,
 #notification,
@@ -241,8 +245,6 @@ StButton,
 
 StButton:hover,
 #notification .notification-button:hover,
-.window-close,
-.window-close:hover,
 .applet-cornerbar
 { background-color: rgba(0,0,0, 0.15); box-shadow: none;}
 
@@ -257,8 +259,6 @@ StButton:checked,
 .calendar-change-month-back:active,
 .calendar-change-month-forward:active,
 .switcher-list .item-box:selected,
-.window-close:active,
-.window-close:checked,
 .window-list-item-box:focus,
 .window-list-item-box:active:focus,
 .grouped-window-list-item-box:focus,
@@ -356,6 +356,8 @@ StEntry,
 
 .popup-submenu-menu-item:open{ border-radius: 8px 8px 0px 0px ; }
 
+.popup-sub-menu .popup-menu-item{border-radius: 0px;}
+
 .popup-sub-menu,
 .popup-sub-menu .popup-menu-item:last-child{ border-radius: 0px 0px 8px 8px; }
 
@@ -380,8 +382,7 @@ StButton,
 .calendar-event-button,
 .overview-empty-placeholder,
 .grouped-window-list-thumbnail-menu,
-.popup-menu-item,
-.popup-sub-menu .popup-menu-item
+.popup-menu-item
 {border-radius: 8px;}
 
 StScrollBar StButton{border-radius: 9999px; border-color: transparent; background-clip: border-box;}
@@ -405,6 +406,8 @@ StScrollBar StButton{border-radius: 9999px; border-color: transparent; backgroun
 	-inactive-window-background: rgba(140, 140, 140, 1.0);
 	-inactive-window-border: rgba(0, 0, 0, 0.7);
 }
+
+.expo-workspaces-name-entry {color: rgb(255,255,255);}
 
 .popup-slider-menu-item {
     height: 1em;
