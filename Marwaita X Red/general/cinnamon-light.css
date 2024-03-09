@@ -273,7 +273,7 @@ StButton:checked,
 #notification StButton.notification-icon-button:checked,
 .popup-menu #notification StButton.notification-button:checked,
 .popup-menu #notification StButton.notification-icon-button:checked
-{ background-color: #9b8787; /*use button active color*/}
+{ background-color: #a28b8b; /*use button active color*/}
 
 .popup-menu-item:active,
 .popup-submenu-menu-item:open,
