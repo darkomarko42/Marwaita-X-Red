@@ -1,4 +1,4 @@
-*{color: #cfcfcf; icon-size: 16px; selection-background-color: rgba(255,255,255, 0.15); selected-color: #cfcfcf; background-clip: padding-box;}
+*{color: #dcdcdc; icon-size: 16px; selection-background-color: rgba(255,255,255, 0.15); selected-color: #dcdcdc; background-clip: padding-box;}
 
 #panel,
 .menu-application-button:highlighted,
@@ -204,14 +204,13 @@ StButton:checked.radiobutton,
 #panel,
 .grouped-window-list-badge,
 .sound-player-overlay
-{background-color: rgba(0,0,0, 0.8); /*use base color transparent*/}
+,
 
 #notification,
 .menu #notification,
 .menu
-{background-color: #494343; /*use base color*/}
+,/*use base color*/
 
-.menu-favorites-box,
 .popup-combo-menu,
 .modal-dialog,
 .switcher-list,
@@ -230,10 +229,11 @@ StButton:checked.radiobutton,
 .window-close:checked,
 .overview-empty-placeholder,
 .grouped-window-list-thumbnail-menu
-{background-color: #3c3838; /*use bg color*/}
+{background-color: #211e1e; /*use bg color*/}
 
 StEntry,
 StButton,
+.menu-favorites-box,
 .window-close,
 .window-close:active,
 .window-close:checked,
@@ -247,7 +247,7 @@ StButton:hover,
 #notification StButton.notification-icon-button,
 .popup-menu #notification StButton.notification-button,
 .popup-menu #notification StButton.notification-icon-button
-{ background-color: #585353; /*use button color*/}
+{ background-color: #302a2a; /*use button color*/}
 
 StButton:active,
 StButton:checked,
@@ -273,7 +273,7 @@ StButton:checked,
 #notification StButton.notification-icon-button:checked,
 .popup-menu #notification StButton.notification-button:checked,
 .popup-menu #notification StButton.notification-icon-button:checked
-{ background-color: #635d5d; /*use button active color*/}
+{ background-color: #413838; /*use button active color*/}
 
 .popup-menu-item:active,
 .popup-submenu-menu-item:open,
@@ -306,7 +306,7 @@ StButton:checked,
 .panel-bottom .grouped-window-list-item-box:focus:hover,
 .panel-bottom .grouped-window-list-item-box:active:focus,
 .panel-bottom .grouped-window-list-item-box:active:focus:hover
-{ box-shadow: inset 0 -3px #f19999;}
+{ box-shadow: inset 0 -3px #dcdcdc;}
 
 .panel-top .window-list-item-box:focus,
 .panel-top .window-list-item-box:focus:hover,
@@ -316,7 +316,7 @@ StButton:checked,
 .panel-top .grouped-window-list-item-box:focus:hover,
 .panel-top .grouped-window-list-item-box:active:focus,
 .panel-top .grouped-window-list-item-box:active:focus:hover
-{ box-shadow: inset 0 3px #f19999;}
+{ box-shadow: inset 0 3px #dcdcdc;}
 
 .panel-right .window-list-item-box:focus,
 .panel-right .window-list-item-box:focus:hover,
@@ -326,7 +326,7 @@ StButton:checked,
 .panel-right .grouped-window-list-item-box:focus:hover,
 .panel-right .grouped-window-list-item-box:active:focus,
 .panel-right .grouped-window-list-item-box:active:focus:hover
-{ box-shadow: inset -3px 0 #f19999;}
+{ box-shadow: inset -3px 0 #dcdcdc;}
 
 .panel-left .window-list-item-box:focus,
 .panel-left .window-list-item-box:focus:hover,
@@ -336,7 +336,7 @@ StButton:checked,
 .panel-left .grouped-window-list-item-box:focus:hover,
 .panel-left .grouped-window-list-item-box:active:focus,
 .panel-left .grouped-window-list-item-box:active:focus:hover
-{ box-shadow: inset 3px 0 #f19999;}
+{ box-shadow: inset 3px 0 #dcdcdc;}
 
 .window-list-item-box,
 .grouped-window-list-item-box:active { background-color: rgba(0,0/**/,0, 0.01);}
@@ -345,25 +345,25 @@ StButton:checked,
 .panel-bottom .window-list-item-box:hover,
 .panel-bottom .grouped-window-list-item-box:active,
 .panel-bottom .grouped-window-list-item-box:hover,
-.panel-bottom .grouped-window-list-item-box:active:hover{ box-shadow: inset 0 -3px #cfcfcf;}
+.panel-bottom .grouped-window-list-item-box:active:hover{ box-shadow: inset 0 -3px #dcdcdc;}
 
 .panel-top .window-list-item-box:focus,
 .panel-top .window-list-item-box:hover,
 .panel-top .grouped-window-list-item-box:active,
 .panel-top .grouped-window-list-item-box:hover,
-.panel-top .grouped-window-list-item-box:active:hover{ box-shadow: inset 0 3px #cfcfcf;}
+.panel-top .grouped-window-list-item-box:active:hover{ box-shadow: inset 0 3px #dcdcdc;}
 
 .panel-right .window-list-item-box:focus,
 .panel-right .window-list-item-box:hover,
 .panel-right .grouped-window-list-item-box:active,
 .panel-right .grouped-window-list-item-box:hover,
-.panel-right .grouped-window-list-item-box:active:hover{ box-shadow: inset -3px 0 #cfcfcf;}
+.panel-right .grouped-window-list-item-box:active:hover{ box-shadow: inset -3px 0 #dcdcdc;}
 
 .panel-left .window-list-item-box:focus,
 .panel-left .window-list-item-box:hover,
 .panel-left .grouped-window-list-item-box:active,
 .panel-left .grouped-window-list-item-box:hover,
-.panel-left .grouped-window-list-item-box:active:hover{ box-shadow: inset 3px 0 #cfcfcf;}
+.panel-left .grouped-window-list-item-box:active:hover{ box-shadow: inset 3px 0 #dcdcdc;}
 
 .progress{background-color: rgba(51,185,84,0.5);}
 
@@ -378,7 +378,10 @@ StButton:checked,
 
 #notification,
 .menu #notification
-{box-shadow: 0 0 0 1px rgba(0,0,0, 0.5);}
+{box-shadow: 0 0 0 1px rgba(255,255,255, 0.2);}
+
+.popup-menu-item:active
+{box-shadow: inset 0 0 0 1px rgba(255,255,255, 0.1);}
 
 .expo-background{border: none;}
 
@@ -399,7 +402,11 @@ StEntry,
 .menu,
 #notification,
 #Tooltip,
-.window-caption
+.window-caption,
+#notification StButton.notification-button,
+#notification StButton.notification-icon-button,
+.popup-menu #notification StButton.notification-button,
+.popup-menu #notification StButton.notification-icon-button
 {border: 1px solid;}
 
 .menu-selected-app-box,
@@ -408,6 +415,8 @@ StEntry,
 .panel-left{border-right: 1px solid;}
 .panel-right{border-left: 1px solid;}
 
+StButton,
+StEntry,
 .menu,
 .menu-favorites-box,
 .popup-combo-menu,
@@ -423,23 +432,27 @@ StEntry,
 .panel-bottom,
 .panel-top,
 .panel-left,
-.panel-right
-{border-color: rgba(0,0,0, 0.5);}
+.panel-right,
+#notification StButton.notification-button,
+#notification StButton.notification-icon-button,
+.popup-menu #notification StButton.notification-button,
+.popup-menu #notification StButton.notification-icon-button
+{border-color: rgba(255,255,255, 0.2);}
 
 .popup-separator-menu-item,
-.calendar-events-main-box .separator{background-color: rgba(0,0,0, 0.5);}
+.calendar-events-main-box .separator{background-color: rgba(255,255,255, 0.2);}
 
 #Tooltip,
 .window-caption{border-color: rgba(255,/**/255,255, 0.2);}
 
 /* Border Radius */
 
-.popup-menu-item{ border-radius: 6px; }
+.popup-menu-item{ border-radius: 4px; }
 
-.popup-submenu-menu-item:open{ border-radius: 6px 6px 0 0 ; }
+.popup-submenu-menu-item:open{ border-radius: 4px 4px 0 0 ; }
 
 .popup-sub-menu,
-.popup-sub-menu .popup-menu-item:last-child{ border-radius: 0 0 6px 6px; }
+.popup-sub-menu .popup-menu-item:last-child{ border-radius: 0 0 4px 4px; }
 
 .popup-sub-menu .popup-menu-item,
 .expo-background
@@ -466,7 +479,7 @@ StButton,
 .calendar-event-button,
 .overview-empty-placeholder,
 .grouped-window-list-thumbnail-menu
-{border-radius: 8px;}
+{border-radius: 4px;}
 
 StScrollBar StButton{border-radius: 9999px; border-color: transparent; background-clip: border-box;}
 
@@ -496,7 +509,7 @@ StScrollBar StButton{border-radius: 9999px; border-color: transparent; backgroun
     height: 1em;
     -slider-height: 6px;
     -slider-background-color: rgba(255,255,255, 0.2);
-    -slider-active-background-color: #cfcfcf;
+    -slider-active-background-color: #dcdcdc;
     -slider-border-width: 1px;
     -slider-handle-radius: 0em;
 }
@@ -510,7 +523,7 @@ StScrollBar StButton:checked,
 .menu StScrollBar StButton:hover,
 .menu StScrollBar StButton:active,
 .menu StScrollBar StButton:checked
-{background-color: #cfcfcf; box-shadow: none;}
+{background-color: #dcdcdc; box-shadow: none;}
 
 /* SVG */
 
@@ -624,7 +637,7 @@ StEntry.expo-workspaces-name-entry {
 }
 
 /* this is for user applet */
-.user-label { color: #cfcfcf;}
+.user-label { color: #dcdcdc;}
 
 .user-icon{border: none;}
 
