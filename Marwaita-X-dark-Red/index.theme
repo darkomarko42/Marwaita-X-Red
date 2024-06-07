@@ -1,0 +1,6 @@
+[X-GNOME-Metatheme]
+Name=Marwaita X Dark Red
+Type=X-GNOME-Metatheme
+Comment=adw-gtk3-dark theme
+Encoding=UTF-8
+GtkTheme=Marwaita X Dark Red

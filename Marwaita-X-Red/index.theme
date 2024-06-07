@@ -1,0 +1,6 @@
+[X-GNOME-Metatheme]
+Name=Marwaita X Red
+Type=X-GNOME-Metatheme
+Comment=adw-gtk3 theme
+Encoding=UTF-8
+GtkTheme=Marwaita X Red
